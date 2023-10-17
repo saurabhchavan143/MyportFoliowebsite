@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+    <!-- header is start  -->
+    <header>
+    <div class="logo">Shopify</div>
+         <nav>
+                 <ul class="navbar-list">
+                        <li><a href="#Home" class="navbar-links home-links" >Home</a></li>
+                        <li><a href="" class="navbar-links about-links">About</a></li>
+                        <li><a href="" class="navbar-links  service-links">service</a></li>
+                        <li><a href="" class="navbar-links portfolis-link">portfolis</a></li>
+                        <li><a href="" class="navbar-links portfolis-link" id="navigation" onclick="navaction()">🛒</a></li>
+                 </ul> 
+         </nav>  
+    </header>
+    <!-- header is end  -->
+
+
+          <!-- here hero section is start  -->
+              
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-column">
+
+        <!-- hero section left size -->
+          <div class="section-hero-data">
+            <p class="hero-top-data">this is me</p>
+            <h1 class="hero-heading">walker world</h1>
+            <p class="hero-para">
+              I'm  saurabh. A Full stack Developer, youtuber and
+              freelancer. A Full stack Developer, youtuber and freelancer.
+            </p>
+            <div class="hireme-btn">
+              <a href="#" class="btn hireme-btn">Hire me</a>
+              
+            </div>
+          </div>
+          <!-- hero section right side  -->
+          <div class="section-hero-image">
+            <picture>
+              <!-- <source srcset="images/hero.webp" type="image/webp" />
+              <source srcset="images/hero-min.jpg" type="image/jpg" /> -->
+              <img
+                  src="images/hero-min.jpg"
+                  alt="this is me thapa technical"
+                  class="hero-img"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- here start biodata -->
+        <section class="hero-bio section section-biodata">
+         <div class=" container grid bio-grid grid-two-column">
+         <div class="bio-image hero-image">
+           <img 
+           class="bio-img"
+           src="images/bio-image.jpg" alt="_blank"/>
+         </div>
+
+         <div class="bio-data-items">  
+         <h2 class="commen-heading ">my biodata </h2>
+         
+         <p>	Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	$1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	Placeholders with the same ids are connected.
+        </p>
+          <br>
+            <ul class="bio-list">
+              <li class="bio-li-item item-html"><h3 class="h3-item">html5</h3></li><span class=" span span-html">70%</span>
+              <li class="bio-li-item item-css"><h3 class="h3-item">css3</h3></li><span class="span span-css">50%</span>
+              <li class="bio-li-item item-js"><h3 class="h3-item">javascript</h3></li><span class="span span-js">60%</span>
+              <li class="bio-li-item item-react"><h3 class="h3-item">react</h3></li><span class="span span-react">30%</span>
+              <li class="bio-li-item item-c"><h3 class="h3-item">c</h3></li><span class="span span-c">50%</span>
+         </ul>
+         <div class="center-btn">
+              <a href="#" class="btn">save data</a>
+              
+            </div>
+         </div>
+         </div> 
+        </section>
+        <!-- hero card -->
+           <section class="section section-portfolis">
+           <!-- <div class="container content"> -->
+              <h2 class="commen-heading">portfull</h2>
+                <p class="portfull-para">Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	              description. Add comma separated ids of the languages ,</p>
+            
+
+            <div class="p-btns">
+                 <div class="btn p-btn" data-btn-num=1>html</div>
+                 <div class="btn p-btn" data-btn-num=2>css</div>
+                 <div class="btn p-btn" data-btn-num=3>javascript</div>
+            </div>
+              
+
+              
+              <div class="container grid grid-three-column p-images">
+                  <div class="img-overlay p-btn--1">
+                     <img src="images/p1.jpg" alt="my works"/>
+                     <div class="overlay">
+                     <a href="">project 1</a>
+                     </div>
+                   </div>
+
+                   <div class="img-overlay p-btn--2">
+                     <img src="images/p2.jpg" alt="my works"/>
+                     <div class="overlay">
+                     <a href="">project 2</a>
+                     </div>
+                   </div>
+                  
+                  <div class="img-overlay p-btn--3">
+                     <img src="images/p3.jpg" alt="my works"/>
+                     <div class="overlay">
+                     <a href="">project 3</a>
+                     </div>
+                   </div>
+
+                   <div class="img-overlay p-btn--2">
+                     <img src="images/p4.jpg" alt="my works"/>
+                     <div class="overlay">
+                     <a href="">project 4</a>
+                     </div>
+                   </div>
+
+                   <div class="img-overlay p-btn--3">
+                     <img src="images/p5.jpg" alt="my works"/>
+                     <div class="overlay">
+                     <a href="">project 5</a>
+                     </div>
+                   </div>
+
+                   <div class="img-overlay p-btn--1">
+                     <img src="images/p6.jpg" alt="my works">
+                     <div class="overlay">
+                     <a href="">project 6</a>
+                     </div>
+                   </div>
+             
+                </div>
+              </div>
+           </section>
+           <!-- here new section start -->
+            <!-- <section class="section">
+           <div class="container grid grid-two-column">
+
+           <video width="auto" height="auto" controls="autoplay" src="audio/demo.mp4"></video>
+           <source type="video" control="autoplay">
+           </source>
+           <h1>this is audio control</h1>
+           </div>
+           </section> -->
+
+
+           <section class="section section-project-details">
+           <div class="container grid grid-four-columns project-details">
+
+           <div class="section-first">
+           <h1>100</h1>
+           <p>this is me </p>
+           </div>
+
+           <div class="section-first">
+           <h1>100</h1>
+           <p>this is me 2</p>
+           </div>
+
+           <div class="section-first">
+           <h1>100</h1>
+           <p>this is me3</p>
+           </div>
+
+           <div class="section-first">
+           <h1>100</h1>
+           <p>this is me 3</p>
+           </div>
+
+           </section>
+
+<!-- 
+new section start
+ -->
+              <section class="section imagine">
+               <div class="container grid grid-four-columns">
+
+               <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div> 
+
+                 <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div> 
+
+                 <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div>
+
+              <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div>    
+               <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div> 
+
+                 <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div> 
+
+                 <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div>
+
+              <div class="flex-items">
+               <h3>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</h3>
+               <h4>Catherine Soft Managing Directo</h4>
+               </div>    
+                 
+               </div>
+              </section >
+                <div class="top-arrow"></div>
+       </main>
+    </body>
+</html>
